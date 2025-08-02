@@ -1,0 +1,167 @@
+Makefile:46: *** missing separator.  Stop.
+Makefile:46: *** missing separator.  Stop.
+Input Parameters Filename:InputParams
+Output Parameters Filename:OutParams
+==================================================================
+*                       KKS 2D ELASTCITY                         *
+*    Developed at Materials Simulation Lab, MSME, IIT Hyderabad     *
+==================================================================
+nx=128
+ny=128
+np=4
+dx=0.200000
+dy=0.200000
+dt=3.000000e-03
+Simulation steps = 1000
+theta = 10.000000
+Bulk free energy coefficients f0A=1.200000e+00	 f0B=1.200000e+00
+Vm=1.000000e+00	 dt=3.000000e-03
+Interface_energy=1.230000e-01	APB energy = 1.230000e-01	Interface width=1.600000e+00
+SUPERSATURATION, c0 = 0.300000
+ppt_size = 10.000000
+======ELASTICITY PARAMETERS=======
+c11m = 2.072000e+03, c12m = 1.435000e+03, c44m = 9.610000e+02, stiffness = 5.000000e-01
+epszero = -1.000000e-03 misfit_aniso = 1.000000e+00
+Applied stress 
+0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+=====MICROSTRUCTURE INFORMATION=====
+Initflag = 1
+Single precipitate simulation
+running with comp evolution
+running with elasticity
+Solving for elastic eqm
+Solving using the given elastic constants
+Grid Dimensions:  (8, 8, 1)
+Block Dimensions: (16, 16, 1)
+maxblocks:2147483647
+maxtpb:1024
+Nondimensional precipitate radius = 10.000000
+c11m=2.072000e+03	 c12m=1.435000e+03	 c44m=9.610000e+02
+c11p=1.042000e+03	 c12p=7.176000e+02	 c44p=4.805000e+02
+gammaA = 0.000000
+gammaI = 0.000000
+Kappa = 0.100408
+Barrier potential = 1.356075
+no error
+
+Iteration No: 0
+total_time=0.000000e+00, iteration=0
+writing configuration to file!
+no error
+Minimum in composition =0.300000
+Maximum in composition =1.000000
+fchem:5.530290
+felas:0.000023
+fgrad:0.015723
+ftotal:5.546036
+
+Iteration No: 100
+total_time=3.000000e-01, iteration=100
+writing configuration to file!
+no error
+Minimum in composition =0.186528
+Maximum in composition =1.068515
+fchem:5.521724
+felas:0.000024
+fgrad:0.002175
+ftotal:5.523922
+
+Iteration No: 200
+total_time=6.000000e-01, iteration=200
+writing configuration to file!
+no error
+Minimum in composition =0.178458
+Maximum in composition =1.043173
+fchem:5.518938
+felas:0.000025
+fgrad:0.001793
+ftotal:5.520756
+
+Iteration No: 300
+total_time=9.000000e-01, iteration=300
+writing configuration to file!
+no error
+Minimum in composition =0.165005
+Maximum in composition =1.032591
+fchem:5.517190
+felas:0.000026
+fgrad:0.001668
+ftotal:5.518885
+
+Iteration No: 400
+total_time=1.200000e+00, iteration=400
+writing configuration to file!
+no error
+Minimum in composition =0.164557
+Maximum in composition =1.025773
+fchem:5.515946
+felas:0.000028
+fgrad:0.001618
+ftotal:5.517592
+
+Iteration No: 500
+total_time=1.500000e+00, iteration=500
+writing configuration to file!
+no error
+Minimum in composition =0.151013
+Maximum in composition =1.021572
+fchem:5.515002
+felas:0.000029
+fgrad:0.001600
+ftotal:5.516630
+
+Iteration No: 600
+total_time=1.800000e+00, iteration=600
+writing configuration to file!
+no error
+Minimum in composition =0.144619
+Maximum in composition =1.018957
+fchem:5.514253
+felas:0.000030
+fgrad:0.001600
+ftotal:5.515883
+
+Iteration No: 700
+total_time=2.100000e+00, iteration=700
+writing configuration to file!
+no error
+Minimum in composition =0.144063
+Maximum in composition =1.017537
+fchem:5.513639
+felas:0.000031
+fgrad:0.001610
+ftotal:5.515280
+
+Iteration No: 800
+total_time=2.400000e+00, iteration=800
+writing configuration to file!
+no error
+Minimum in composition =0.142518
+Maximum in composition =1.017150
+fchem:5.513121
+felas:0.000032
+fgrad:0.001627
+ftotal:5.514779
+
+Iteration No: 900
+total_time=2.700000e+00, iteration=900
+writing configuration to file!
+no error
+Minimum in composition =0.136322
+Maximum in composition =1.016770
+fchem:5.512670
+felas:0.000032
+fgrad:0.001648
+ftotal:5.514350
+
+Iteration No: 1000
+total_time=3.000000e+00, iteration=1000
+writing configuration to file!
+no error
+Minimum in composition =0.129580
+Maximum in composition =1.015920
+fchem:5.512267
+felas:0.000033
+fgrad:0.001671
+ftotal:5.513971
+After device reset, GPU Memory Free:80489 and Total:81037

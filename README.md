@@ -4,5 +4,5 @@ This repository contains a high-performance implementation of the Cahn-Hilliard 
 and some Python scripts for post-processing and visualization.
 
 🛑 Other GPU-accelerated solvers are currently private.  
-If you're interested in collaborating, please contact me: dak.gupta7@gmail.con or ms22resch11003@iith.ac.in.
+If you're interested in collaborating, please contact me: dak.gupta7@gmail.com or ms22resch11003@iith.ac.in
 
